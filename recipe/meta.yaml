@@ -1,6 +1,6 @@
 
 {% set name = "scraps" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/scraps-{{ version }}.tar.gz
-  sha256: 786c1ee97e416b39e157a219f01308863f47c5a619e4ae559ec63deabea8c3dd
+  sha256: 6b9c823728a95ca604d9cbd869a372bdf9ac1de63d99ab85b3987d51af53b407
 
 build:
   number: 0
