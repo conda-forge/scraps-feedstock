@@ -20,6 +20,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - emcee >=2.2.1
     - lmfit >=0.9.5
